@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+  <h1>DASS-21 Questionnaire</h1>
+
+  <form id="dassForm" action="{{ url_for('predict')}}"method="post">
+    <h2>Depression</h2>
+    <ol>
+      <li>
+        <label for="depression-q1">I found it hard to wind down.</label>
+        <select id="depression-q1">
+          <option value="1">Did not apply to me at all</option>
+          <option value="2">Applied to me to some degree, or some of the time</option>
+          <option value="3">Applied to me to a considerable degree, or a good part of the time</option>
+          <option value="4">Applied to me very much, or most of the time</option>
+        </select>
+      </li>
+     
+<li>
+        <label for="depression-q1">I found it hard to wind down.</label>
+        <select id="depression-q1">
+          <option value="1">Did not apply to me at all</option>
+          <option value="2">Applied to me to some degree, or some of the time</option>
+          <option value="3">Applied to me to a considerable degree, or a good part of the time</option>
+          <option value="4">Applied to me very much, or most of the time</option>
+        </select>
+      </li>
+
+        <li>
+        <label for="depression-q1">I found it hard to wind down.</label>
+        <select id="depression-q1">
+          <option value="1">Did not apply to me at all</option>
+          <option value="2">Applied to me to some degree, or some of the time</option>
+          <option value="3">Applied to me to a considerable degree, or a good part of the time</option>
+          <option value="4">Applied to me very much, or most of the time</option>
+        </select>
+      </li>
+
+
+    </ol>
+
+
+    <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+  </form>
+
+</body>
+</html>
